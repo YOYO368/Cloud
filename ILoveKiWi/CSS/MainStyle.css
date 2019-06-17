@@ -1,0 +1,80 @@
+﻿body{
+    padding:0%;
+    margin:0%;
+    font-family:Arial;
+}
+.navbar-brand{
+    font-family:'Palatino Linotype';
+    font-size:35px;
+    color:lightcoral;
+}
+.nav-link{
+    font-size:16px;
+    margin:15px;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-link:hover{
+    color:#00E8E8;
+}
+.active .nav-link{
+    color:#00E8E8;
+}
+.menu-right-btn{
+    padding:13px 46px;
+    margin-right:4%;
+    background-color:transparent;
+    transition:all 300ms ease-in;
+}
+.menu-right-btn:hover {
+    color: white;
+    background-color: #00E8E8;
+}
+.site-content{
+    background-image:url("/Images/kiwi.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+}
+.site-title,site-desc{
+    color:white;
+    font-family:'Lucida Bright';
+}
+.site-title{
+    margin-top:30%;
+    margin-bottom:6%;
+    font-size:50px;
+}
+.site-desc{
+    margin-top:14px;
+    padding-left:15%;
+}
+.site-btn1{
+    margin-left:20%;
+    background-color:black;
+    color:white;
+}
+.site-btn2{
+    background-color:white;
+}
+.site-btn1,.site-btn2{
+    margin-top:5%;
+    margin-bottom:40%;
+}
+.section-1 .heading-1{
+    margin-top:8%;
+}
+.section-1 .heading-2 {
+    margin-bottom: 5%;
+    font-size:39px;
+}
+.section-1 .para-1{
+    width:60%;
+    margin-left:20%;
+    margin-bottom:5%;
+}
+.section-1 .card-text, .para-1{
+    color:rgba(0,0,0,0.59);
+}
+.section-1{
+    margin-bottom:8%;
+}
