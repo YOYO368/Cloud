@@ -23,7 +23,7 @@ namespace ILoveKiWi
             {
                 if (aLayer.AddNewCustomer(txtUserID.Text, txtUserPasswd.Text, txtUserName.Text, txtUserEmail.Text, txtUserMobile.Text))
                 {
-                    Response.Write("<script>alert('New customer is registered');window.location = '/Customer/CustomerLogin.aspx';</script>");
+                    Response.Write("<script>alert('New customer is registered');window.location = '/KiWiMainPage.aspx;</script>");
                     return;
                 }
                 else

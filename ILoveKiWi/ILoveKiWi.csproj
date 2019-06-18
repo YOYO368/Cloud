@@ -111,7 +111,7 @@
   <ItemGroup>
     <Content Include="MainPage.Master" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\ILoveKiWi20190617095941 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ILoveKiWi - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

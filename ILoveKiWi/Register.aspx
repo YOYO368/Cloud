@@ -21,7 +21,7 @@
                     <asp:Label ID="Label_Passwd" runat="server" AssociatedControlID="txtUserPasswd" Text="User Passwd :"></asp:Label>
                 </td>
                 <td style="width: 300px">
-                    <asp:TextBox ID="txtUserPasswd" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtUserPasswd" runat="server" TextMode="Password"></asp:TextBox>
                 </td>
                 <td style="width: 600px">
                     &nbsp;</td>
@@ -31,7 +31,7 @@
                     <asp:Label ID="Label_ConfirmPasswd" runat="server" AssociatedControlID="txtConfirmPasswd" Text="Confirm Passwd : "></asp:Label>
                 </td>
                 <td style="width: 300px">
-                    <asp:TextBox ID="txtConfirmPasswd" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtConfirmPasswd" runat="server" TextMode="Password"></asp:TextBox>
                 </td>
                 <td style="width: 600px">
                     &nbsp;</td>
